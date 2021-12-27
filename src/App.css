@@ -1,0 +1,431 @@
+.App {
+  text-align: center;
+}
+
+.Transparent{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+}
+.left{
+  position:fixed;
+  z-index: -1;
+  bottom:0px;
+}
+.leftimg{
+  height: 90vh;
+  max-width: 100% !important;
+  max-height: 100%;
+  bottom:0px;
+  float: left;
+}
+.right{
+  position:fixed;
+  z-index: -1;
+  bottom:0px;
+}
+.modala .modal-content {
+  background-image:url("../public/popupbg.png") ;
+}
+.container{
+  padding-left: 0px !important;
+}
+.modala .modal-header {
+  color:white;
+  border-bottom: none;
+}
+/* .App{
+  box-sizing: unset;
+} */
+
+*:not(button){
+  box-sizing :unset;
+}
+.rightimg{
+  height: 90vh;
+  max-width: 130% !important;
+  max-height: 100%;
+  float: right;
+}
+
+.App-header {
+  min-height: 100vh;
+    
+  /* max-height:100vh !important; */
+  background-position: center;
+  /* height: 100%; */
+  background-size: cover;
+	-webkit-background-size: cover !important; 
+  overflow-x: hidden;
+}
+.row_element{
+  display:flex;
+  justify-content: center;
+}
+/* .padding_element{
+} */
+.footer{
+  color:white;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 1%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+body {
+  background-image:url("../public/background.png");
+  background-size: cover;
+  background-position: fixed;
+    margin:0;
+    padding:0;
+    height:100%;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+
+/* Maincomponent style */
+
+@media(max-width: 830px){
+  .left{
+    display: none;
+  }
+}
+
+@media(max-width: 830px){
+  .minted_text{
+    color:#ee2222;
+    font-size: 1.5rem !important;
+    padding-bottom: 3%;
+  } 
+}
+@media(max-width: 830px){
+  .right{
+    display: none;
+  }
+}
+.text_nftcount{
+  color:white;
+  font-size:30px;
+  padding-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.mainscreen{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo{
+  width:300px;
+  padding-top:10%;
+  padding-bottom: 5%;
+}
+.main{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0%;
+  padding-top: 3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 60vh;
+}
+.minted_text{
+  color:#ee2222;
+  font-size: 2rem ;
+}
+
+h3.mint_header {
+  font-size: 4rem !important;
+  font-weight: 600;
+  color:white;
+}
+
+@media (max-width: 830px) {
+  h3.mint_header {
+  font-size: 2.3rem !important;
+  font-weight:600;
+  color:white;
+  padding-bottom: 10%;
+  }
+  .col-md-2{
+    width: 100px!important;
+  }
+}
+.buttona{
+  background-color:#ee2222;
+  font-size: 30px !important;
+  color: white;
+  max-width: 450px !important;
+  max-height: 60px;
+  min-width: 30px;
+  min-height: 60px;
+}
+.spacingheght{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+}
+@media(min-width: 1500px){
+  .logo{
+    /* width:400px; */
+    padding-top:33%;
+    padding-bottom: 0%;
+  }
+  .btn_group {
+    padding-top: 0% !important;
+    padding-bottom: 5px;
+  }
+}
+/* @media(min-width: 1700px){
+  .logo{
+    width:400px;
+    padding-top:10%;
+    padding-bottom: 5%;
+  }
+  .buttona{
+    background-color:#ee2222;
+    font-size: 40px !important;
+    color: white;
+    max-width: 550px !important;
+    max-height: 80px;
+    min-width: 500px;
+    min-height: 80px;
+  }
+  h3.mint_header {
+    font-size: 6rem !important;
+    font-weight:600;
+    color:white;
+  }
+  .css-j3wjl4-MuiButtonBase-root-MuiButton-root{
+    font-size:40px !important;
+  }
+  .minted_text{
+    font-size: 3rem;
+  }
+  .comment_Maximum {
+    font-size: 2.3rem !important
+  }
+  .comment_Fee{
+    font: 1.5rem sans-serif !important;
+  }
+} */
+@media (max-width: 830px) {
+  .logo{
+    width:250px;
+    padding-top:10%;
+    padding-bottom: 10%;
+  }
+  .css-j3wjl4-MuiButtonBase-root-MuiButton-root{
+    font-size: 20px !important;
+  }
+  .btn_group {
+    padding-top: 4%;
+    padding-bottom: 5% !important;
+    }
+}
+button.MuiButton-root  {
+  font-size: 1.25rem;
+  padding: 20px!important;
+  }
+  
+.btn_group {
+  padding-top: 5%;
+  padding-bottom: 5px;
+  }
+.App-link {
+  color: #61dafb;
+}
+.comment_Fee{
+  color:white;
+  font: 1em sans-serif !important;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.comment_Maximum{
+  color:white;
+  font: 1em sans-serif;
+  /* padding-top:5px; */
+  padding-bottom:5px;
+}
+.comment_Whitelister{
+  font-size: 1.3rem;
+  color:#ee2222;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.error_comment{
+  text-align: center;
+  font-weight: bold;
+  color:red;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+.alert{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.img{
+  background-position: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+a{
+  font-size: 12px;
+  color: #1400FF;
+  margin-bottom: 5%;
+}
+.copyright{
+  color:white;
+  font-size: 10px;
+  margin-bottom: 5px !important;
+}
+.ids{
+  margin-bottom: 5%;
+}
+.social{
+  margin-left: 3% !important;
+  
+  padding:3% !important;
+}
+.modaltitle{
+  color: white !important;
+  text-align: center;
+}
+h3{
+  font-size:35px !important;
+}
+h4{
+  font-size: 20px;
+}
+.ico{
+  padding:0 !important;
+  margin:0 !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  vertical-align: middle; 
+  /* display:flex !important; 
+  flex-direction: column;
+  justify-content: center !important;  */
+}
+.col{
+  display: flex !important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.comment_Maximum.max_Public {
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.modalid{
+  font-size: 20px;
+  text-align: center;
+}
+a{
+  font-size: 20px;
+  color: white !important;
+}
+.modalroute{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opensea{
+  max-width: 71%;
+  padding : 5px
+}
+.btn-close{
+  margin: 0px !important;
+  margin-left: 5% !important;
+  padding:0px !important
+}
+.imageshow{
+  width:220px;
+  justify-content: center;
+  background: transparent url('./loader.gif') center no-repeat;
+}
+.row{
+  justify-content: center;
+}
+.image5{
+  justify-content: center;
+  background: transparent url('./loader.gif') center no-repeat;
+}
+.Popuptitle{
+  color: white !important;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.whitecolor{
+  color: white;
+}
+.loader{
+  width: 70%;
+  background: transparent url('./loader.gif') center no-repeat;
+}
+.height{
+  height: 100vh !important;
+}
+.minted{
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #ee2222;
+}
+.col-md-3{
+  padding: 0px;
+}
+.test{
+  height: 80%;
+}
+.padding_element{
+  padding-bottom: 2%;
+}
+.buttons{
+  width: 100px;
+}
+.group{
+  padding-left: 12px;
+  padding-right: 12px;
+  /* padding-bottom: 10px; */
+  padding-top: 10px;
+}
+.Transaction{
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+}
+.background{
+  background-image: url("./backpatter.png");
+}
+.whitepadding{
+  margin: 8px;
+}
+.processs{
+  text-align: center;
+  padding-top: 10px;
+}
